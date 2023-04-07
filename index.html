@@ -54,6 +54,33 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="btn-modal" data-modal-close>X</button>
+          <form>
+            <h1 class="datos">Deje sus datos, nos contactaremos con usted</h1>
+
+            <label>Nombre
+            </label>
+            <input type="nombre" name="nombre" required>
+            <a class="item" href="#">
+              
+            <label>Telefono
+              <input type="telefono" name="telefono" required>
+            </label>
+            
+            <label>E-mail
+              <input type="email" name="email" required>
+            </label>
+
+            <label>Comentarios
+              <input type="comentarios" name="comentarios" placeholder="Introduzca el texto" />
+            </label>
+            
+            <label>
+              <input type="checkbox" name="aceptar" value="Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones" checked />
+              Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+            </label>
+
+            <button type="submit">Enviar</button>
+          </form>
         </div>
       </div>
       <script src="./js/modal.js"></script>
