@@ -54,31 +54,39 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="btn-modal" data-modal-close>X</button>
+
+          <h1 class="datos">Deje sus datos, nos contactaremos con usted</h1>
+          <br>
           <form>
-            <h1 class="datos">Deje sus datos, nos contactaremos con usted</h1>
-
-            <label>Nombre
+            
+            <label class="lbl-up">
+              Nombre
             </label>
-            <input type="nombre" name="nombre" required>
-            <a class="item" href="#">
+            <use href="./images/SVG/symbol-defs.svg#icon-usuario"></use>
+            <input type="text" name="nombre" required>
               
-            <label>Telefono
-              <input type="telefono" name="telefono" required>
+            <label class="lbl-up">
+              Telefono
             </label>
-            
-            <label>E-mail
-              <input type="email" name="email" required>
-            </label>
+            <use href="./images/SVG/symbol-defs.svg#icon-contacto"></use>
+            <input type="text" name="telefono" required>
 
-            <label>Comentarios
-              <input type="comentarios" name="comentarios" placeholder="Introduzca el texto" />
+            <label class="lbl-up">
+              Email
             </label>
-            
+            <use href="./images/SVG/symbol-defs.svg#icon-correo2"></use>
+            <input type="text" name="email" required>
+
+            <label class="lbl-up">
+              Comentarios
+            </label>
+            <input type="text" name="comentarios" placeholder="Introduzca el texto" />
             <label>
-              <input type="checkbox" name="aceptar" value="Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones" checked />
-              Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
+              
+              
             </label>
-
+            <input type="checkbox" name="aceptar" value="Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones" checked />
+            Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
             <button type="submit">Enviar</button>
           </form>
         </div>

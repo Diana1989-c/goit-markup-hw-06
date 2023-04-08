@@ -100,7 +100,7 @@ input {
   box-sizing: border-box;
   width: 448px;
   height: 40px;
-  left: 576px;
+  left: cpx;
   top: 314px;
   border: 1px solid #2196F3;  
 }
@@ -646,4 +646,12 @@ footer .container aside ul li .icon:hover{
   border-radius: 50%;
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
+}
+
+
+.lbl-up {
+  display: block; 
+	float: center; 	
+  box-sizing: border-box;
+  padding-left: 1.8rem;
 }
